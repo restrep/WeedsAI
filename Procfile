@@ -1,1 +1,1 @@
-web: gunicorn Weeds_classifier.py:app
+web: gunicorn Weeds_classifier:app
