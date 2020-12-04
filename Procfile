@@ -1,0 +1,1 @@
+web: gunicorn Weeds_classifier:app
