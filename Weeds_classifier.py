@@ -29,7 +29,7 @@ def allowed_file(filename):
 
 app = Flask(__name__)
 
-model = load_model('/Users/sebastianrestrepo/Documents/AI/Flask_test/model.h5')
+model = load_model('model.h5')
 num2class = {0: 'Chinee apple', 1: 'Lantana', 2: 'Negative', 3: 'Parkinsonia', 4: 'Parthenium', 5: 'Prickly acacia', 6: 'Rubber vine', 7: 'Siam weed', 8: 'Snake weed'}
 
 @app.route('/')
