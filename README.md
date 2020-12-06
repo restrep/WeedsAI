@@ -1,7 +1,8 @@
 # WeedsAI
 
-**WeedsAI** is multiclass weeds image classifier based on the public dataset DeepWeeds. The model uses tranfer learning and builts upon the ResNet50. Obtaining a test accuracy of 90%.
-The webapp is deployed using flask and heroku.
+A multiclass weeds image classifier based on the public dataset DeepWeeds. 
+The model uses tranfer learning and builts upon the ResNet50. Obtaining a test accuracy of 90%.
+The [webapp](https://weedsai.herokuapp.com/) is deployed using flask and heroku.
 
 ## Why?
 The scenario where two plant species do not destroy each other is quite rare. Predominantly, plants will fight for all the available resources around them.
