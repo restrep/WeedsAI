@@ -17,8 +17,11 @@ WeedsAI is multiclass weeds image classifier based on the public dataset DeepWee
 
 ## How?
 WeedsAI uses transfer learning leveraging the power of the successful pre-trained model ResNet50 and building a deep neural network on top of it obtaining 90% accuracy.
-For details check the jupyter notebook.
 
+Here is the confusion matrix (%) for a 20% test set.
 
+For more details check the jupyter notebook.
+
+![](https://github.com/restrep/WeedsAI/blob/main/Confussion%20Matrix.png)
                     
      
