@@ -2,9 +2,9 @@
 
 A multiclass weeds image classifier based on the public dataset DeepWeeds. 
 
-The model uses tranfer learning and builts upon the ResNet50. Obtaining a test accuracy of 90%.
+The model uses tranfer learning and builts upon the ResNet50. Obtaining a test accuracy of 91%.
 
-Check [webapp](https://weedsai.herokuapp.com/) deployed using flask and heroku.
+Check the [webapp](https://weedsai.herokuapp.com/) deployed using flask and heroku.
 
 ## Why?
 The scenario where two plant species do not destroy each other is quite rare. Predominantly, plants will fight for all the available resources around them.
@@ -16,11 +16,11 @@ The control of weeds is a time-consuming and intense task typically performed by
 WeedsAI is multiclass weeds image classifier based on the public dataset DeepWeeds. The dataset consists of 17,509 images of plants belonging to 8 different weeds species native to different locations across Australia
 
 ## How?
-WeedsAI uses transfer learning leveraging the power of the successful pre-trained model ResNet50 and building a deep neural network on top of it obtaining 90% accuracy.
+WeedsAI uses transfer learning leveraging the power of the successful pre-trained model ResNet50 and building a deep neural network on top of it obtaining 91% accuracy.
 
 Here is the confusion matrix (%) for a 20% test set.
 
-For more details check the jupyter notebook.
+For more details check the ![jupyter notebook](https://github.com/restrep/WeedsAI/blob/main/WeedsAI_Notebook.ipynb).
 
 ![](https://github.com/restrep/WeedsAI/blob/main/Confussion%20Matrix.png)
                     
