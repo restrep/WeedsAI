@@ -66,7 +66,7 @@ def upload_image():
         name1 = num2class[label1]
         name2 = num2class[label2] 
         
-        return render_template('Pred.html', prediction = f'The image is predicted as {name1} weed with {prob1}% probability and as {name2} with {prob2}% probability. \n')
+        return render_template('Pred.html', prediction = f'The top two predictions for the image are:  {name1} weed with {prob1}% probability and {name2} with {prob2}% probability. \n')
     else:
         return render_template('Pred.html', prediction = 'Invalid File extension. \n')
 
