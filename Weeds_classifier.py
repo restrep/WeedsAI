@@ -6,7 +6,8 @@ import numpy as np
 from werkzeug.utils import secure_filename
 from PIL import Image, ImageFile
 from io import BytesIO
-from keras.applications.resnet50 import preprocess_input
+#from keras.applications.resnet50 import preprocess_input
+from tensorflow.keras.applications.resnet50 import preprocess_input
 
 
 #############################
