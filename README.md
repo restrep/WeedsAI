@@ -2,7 +2,7 @@
 
 A multiclass weeds image classifier based on the public dataset DeepWeeds. 
 
-The model uses tranfer learning and builts upon the ResNet50. Obtaining a test accuracy of 91%.
+The model uses transfer learning and builds upon the ResNet50. Obtaining a test accuracy of 91%.
 
 Check the [webapp](https://weedsai.herokuapp.com/) deployed using flask and heroku.
 
